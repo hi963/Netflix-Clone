@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/background.jpg");
+    height: 90vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    opacity: 0.74;
+    position: absolute;
+    top: 0%;
+}
+
+
+nav {
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    max-width: 60vw;
+    padding: 20px;
+
+}
+
+.main nav span img {
+    width: 140px;
+    filter: brightness(1);
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav .buttons .signin {
+    background-color: red;
+    height: 30px;
+    width: 80px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.signin:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.652);
+}
+
+.signin:active {
+    background-color: rgba(255, 0, 0, 0.449);
+}
+
+nav .buttons .lang {
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.389);
+    font-size: 17px;
+    margin-right: 16px;
+    border-radius: 3px;
+}
+
+.hero {
+    height: calc(100% - 84px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    flex-direction: column;
+    padding: 0 30PX;
+    text-align: center;
+    gap: 30px;
+}
+
+.bigass {
+    font-size: 3rem;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.big2 {
+    font-size: 1.5rem;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.big3 {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.placeholder {
+    display: flex;
+    gap: 9px;
+}
+
+.separation {
+    background-color: rgba(128, 128, 128, 0.251);
+    width: 100vw;
+    height: 7px;
+    position: relative;
+    top: 0%;
+}
+
+.red-bun {
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    height: 52px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.red-bun:hover {
+    background-color: rgba(255, 0, 0, 0.615);
+    cursor: pointer;
+}
+
+.red-bun:active {
+    background-color: rgba(255, 0, 0, 0.247);
+}
+
+.input {
+    height: 49px;
+    width: 360px;
+    font-size: 14px;
+    margin-top: 0;
+    padding-left: 20px;
+    background: #00000029;
+    border: 1px solid #ffffff80;
+    border-radius: 3px;
+    font-size: 1rem;
+    margin-left: 20px;
+    color: white;
+}
+
+.bottom{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.texts{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.texts .text1{
+    font-family: "Martel Sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;     
+    font-size: 50px;
+    color: white;
+}
+
+.texts .text2{
+    color: white;
+    font-size: 25px;
+}
+
+.image{
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+.image img{
+    position: relative;
+    z-index: 10;
+}
+
+.image video{
+    position: relative;
+    margin-left: 82px;
+    top: -388px;
+    width: 467px;
+}
+
+.separation2{
+    background-color: rgba(128, 128, 128, 0.251);
+    width: 100vw;
+    height: 7px;
+    position: relative;
+    top: 0%;
+}
